@@ -11,8 +11,7 @@ Como já vimos acima, o ideal para se ter em sua aplicação é uma alta coesão
 Como falado acima, porque quando você precisar mudar algo em seu código um baixo acoplamento e alta coesão vão tornar a mudança menos demorada e desgastante e dando menos conflito.  
 
 ## Exemplo
-'''java
-// Alto acoplamento: o Dono cria o próprio cachorro (new lá dentro)
+Alto acoplamento: o Dono cria o próprio cachorro (new lá dentro)
 public class Dono {
     private Cachorro cachorro = new Cachorro("Thor", 3, "Vira-lata");
 
@@ -20,9 +19,8 @@ public class Dono {
         cachorro.latir();
     }
 }
-'''
-'''java
-// Baixo acoplamento: o Dono recebe o cachorro pelo construtor
+
+Baixo acoplamento: o Dono recebe o cachorro pelo construtor
 public class Dono {
     private Cachorro cachorro;
 
