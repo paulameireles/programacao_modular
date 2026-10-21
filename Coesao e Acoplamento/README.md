@@ -12,6 +12,8 @@ Como falado acima, porque quando você precisar mudar algo em seu código um bai
 
 ## Exemplo
 Alto acoplamento: o Dono cria o próprio cachorro (new lá dentro)
+
+
 public class Dono {
     private Cachorro cachorro = new Cachorro("Thor", 3, "Vira-lata");
 
@@ -21,6 +23,8 @@ public class Dono {
 }
 
 Baixo acoplamento: o Dono recebe o cachorro pelo construtor
+
+
 public class Dono {
     private Cachorro cachorro;
 
@@ -32,4 +36,3 @@ public class Dono {
         cachorro.latir();
     }
 }
-'''
