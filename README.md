@@ -1,3 +1,3 @@
-# programacao_modular
+# Programação Modular
 Repositório criado para fins de estudo da Programação Modular em Java.
 (PUC Minas – CDIA)
