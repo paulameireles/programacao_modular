@@ -1,14 +1,18 @@
 class Cachorro{
+
+    //Atributos
     private String nome;
     private int idade;
     private final String raca;
 
+    //construtor
     public Cachorro(String nome, int idade, String raca){
         this.nome = nome;
         this.idade = idade;
         this.raca = raca;
     }
 
+    // getters e setters
     public int getIdade(){
         return idade;
     }
@@ -25,6 +29,7 @@ class Cachorro{
         return raca;
     }
 
+    //métodos
     public void latir() {
     System.out.println("Au au!");
     }
@@ -33,6 +38,7 @@ class Cachorro{
         System.out.println("Oi, eu sou " + getNome() + ", minha idade é " + getIdade() + " e minha raça é " + getRaca());
     }
 
+    //método main
     public static void main(String[] args) {
         Cachorro c1 = new Cachorro("Thor", 3, "Vira-lata");
         Cachorro c2 = new Cachorro("Tobias", 1, "Pastor alemão");
